@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>Miranda Clothing Brand</title>
+</head>
+<body>
+    <header class="main-header">
+        <a class="logo" href="index.html"><img src="/images/Miranda.jpg" alt="logo"></a>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="shopping-bag"><a href="/cart.html"><img src="/images/icons8-shopping-bag-50.png" alt="shopping-bag" width="30px"></a></li>
+                <i class="close"><img src="/images/icons8-x-48.png" alt="x-icon" width="30px"></i>
+            </ul>
+            <div class="mobile">
+                <a href="/cart.html"><img src="/images/icons8-shopping-bag-50.png" alt="shopping-bag" width="30px"></a>
+                <i class="menu-icon"><img src="/images/icons8-hamburger-menu-50.png" alt="menu-icon" width="40px"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="prodetails">
+        <div class="single-pro-image">
+            <img id="main-img" src="images/Primavera -1.jpg" width="100%" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col active">
+                    <img src="images/Primavera -1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/primavera - 2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/Primevara - 3.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h2>Primavera Dress</h2>
+            <h3><span>125,00 € </span>75,00 €</h3>
+            <p>Available in one size – ONE SIZE ONLY</p>
+            <input type="number" value="1" readonly>
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <p class="description">
+                Introducing our stunning light dress, delicately crafted from the softest fabric to ensure a luxurious and comfortable wearing experience. Designed to elevate your chic looks, this dress is a true embodiment of effortless elegance.
+                <br>
+                From the moment you slip it on in the morning to the last moments of the night, this versatile dress gracefully accompanies you throughout your day. Its lightweight construction allows for ease of movement, keeping you feeling at ease and stylish from dawn till dusk.</p>
+                <div class="toggle-container">
+                <button id="specs-toggle">Product Specs<span class="plus-minus">+</span></button>
+            </div>
+                <div id="specs-container">
+                    <ul class="specs-items">
+                        <li><img src="/images/info-icon-1.png" alt=""><span class="text">Wash by hand</span></li>
+                        <li><img src="/images/info-icon-2.png" alt=""><span class="text">Don't use dryer</span></li>
+                        <li><img src="/images/info-icon-3.png" alt=""><span class="text">Don't use chlorine</span></li>
+                        <li><img src="/images/info-icon-4.png" alt=""><span class="text">Max ironing at 90ο max</span></li>
+                    </ul>
+                </div>
+        </div>
+    </section>
+    <section class="product1">
+        <h2>New Arrivals</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img class="product" src="/images/Luxe - 1.jpg" alt="dress">
+                <div class="des">
+                    <h5>Luxe</h5>
+                    <p class="price"><span>130,00 € </span>80,00 €</p>
+                </div>
+            </div>
+        <div class="pro">
+            <a class="pro-link" href="/blissful.html"><img class="product" src="/images/Blissful-1.jpg" alt="dress">
+                <div class="des">
+                    <h5>Blissful</h5>
+                    <p class="price"><span>120,00 € </span>75,00 €</p>
+                </div></a>
+        </div>
+        <div class="pro" data-color="blue" data-price="90">
+            <a class="pro-link" href="/celine.html"><img class="product" src="/images/Celine-2.jpg" alt="dress">
+            <div class="des">
+            <h5>Celine</h5>
+            <p class="price"><span>120,00 € </span>90,00 €</p>
+        </div></a>
+        </div>
+        <div class="pro">
+            <img class="product" src="/images/galena-1.jpg" alt="dress">
+            <div class="des">
+                <h5>Galena</h5>
+                <p class="price"><span>135,00 € </span>95,00 €</p>
+                </div>
+            </div>
+    </section>
+        <article class="news-letter shop">
+            <h3>NEWSLETTER</h3>
+            <form>
+            <input type="email" id="email" name="email" placeholder="TYPE YOUR EMAIL">
+            <br>
+            <button type="submit" class="e-mail-button">Subscribe</button>
+            </form>
+            <ul class="news-letter-items">
+                <li>
+                    <img src="/images/footer-primary-icon-security.png" alt="lock-icon" width="50px">
+                    <p>TRANSACTIONS SECURITY</p>
+                </li>
+                <li>
+                    <img src="/images/footer-primary-icon-shipping.png" alt="shipping-icon" width="50px">
+                    <p>WORLDWIDE SHIPPING</p>
+                </li>
+                <li>
+                    <img src="/images/icons8-handmade-50.png" alt="handmade-icon" width="50px">
+                    <p>HANDMADE</p>
+                </li>
+            </ul>
+            </article>
+    </main>
+    <footer class="main-footer">
+        <div class="col">
+            <img class="footer-logo" src="/images/Miranda.jpg" alt="miranda-logo">
+            <p class="description">Experience the allure of Athens with Miranda, your <br> destination for exquisite handmade fashion. Embrace the <br> spirit of Miranda and indulge in the beauty of handmade clothing.</p>
+            <p><strong>Phone :</strong> (+30) 69 99 99 999</p>
+            <p><strong>Hours :</strong> 10:00 - 18:00, Mon - Fri</p>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        
+        <div class="follow">
+        <h4>Follows us</h4>
+            <a class="footer-image" href="#"><img src="/images/icons8-facebook-50.png" alt="facebook-logo"></a>
+            <a class="footer-image" href="#"><img src="/images/icons8-insta-50.png" alt="instagram-logo"></a>
+        </div>
+    </footer>
+    <section class="copy-payment">
+        <div class="copyright">
+            <p>&copy; 2023, Miranda SA</p>
+        </div>
+        <div class="payment-icons">
+            <img src="/images/footer-payment-icons.png" alt="payment-icons" width="90%">
+        </div>
+    </section>
+    <script src="/index.js"></script>
+    <script src="/singlePage.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
