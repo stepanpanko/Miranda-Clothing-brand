@@ -50,6 +50,6 @@ function addToCart() {
     // Then redirect to the cart page using window.location.href or any other method
   
     // Example: Redirecting to the cart page
-    window.location.href = '/cart.html';
+    window.location.href = '/Pages/Cart/cart.html';
   }
   
