@@ -34,22 +34,15 @@ for (let i = 0; i < smallImg.length; i++) {
     };
 };
 
+// add to cart button
 function addToCart() {
     const addToCartButton = document.querySelector('.add-to-cart');
     addToCartButton.textContent = 'Proceed to Checkout';
     addToCartButton.classList.add('proceed-to-checkout');
     addToCartButton.removeEventListener('click', addToCart);
     addToCartButton.addEventListener('click', proceedToCheckout);
-  };
-  
-  function proceedToCheckout() {
-    // Add your logic here to handle adding the selected item to the cart and redirecting to the cart page
-    const productId = document.querySelector('.add-to-cart').getAttribute('data-id');
-    // Add the necessary code to add the item to the cart and redirect to the cart page
-    // For example, you can store the item details in localStorage or send a request to a server
-    // Then redirect to the cart page using window.location.href or any other method
-  
-    // Example: Redirecting to the cart page
+};
+
+function proceedToCheckout() {
     window.location.href = '/Pages/Cart/cart.html';
-  }
-  
+}

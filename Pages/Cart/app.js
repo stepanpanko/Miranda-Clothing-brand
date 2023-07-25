@@ -99,3 +99,4 @@ sampleItems.forEach((item, index) => {
   // Append the delete button to the row
   row.appendChild(deleteButton);
 });
+

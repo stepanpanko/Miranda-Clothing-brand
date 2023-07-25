@@ -929,38 +929,22 @@ body{
     margin-right: 20px;
 }
 
-.checkout-button,
-.clear-cart {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+.cart-button{
+    width: 20%;
+    margin: 0;
+    padding: 15px 10px;
+    background-color: rgba(177, 178, 136, 0.05);
+    border-radius: 2px;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(164, 131, 73);
+    color: #4b4747;
     cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
     text-decoration: none;
-}
-
-.checkout-button:hover,
-.clear-cart:hover {
-    background-color: #0056b3;
-}
-
-.checkout-button:active,
-.clear-cart:active {
-    background-color: #003080;
-}
-
-.checkout-button:focus,
-.clear-cart:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px #007bff;
-}
-
-.checkout-button:disabled,
-.clear-cart:disabled {
-    background-color: #ddd;
-    cursor: not-allowed;
 }
 
   /* Plus and Minus Buttons */
@@ -978,10 +962,6 @@ body{
     color: #fff;
     border: none;
     cursor: pointer;
-}
-
-.quantity-buttons button:hover {
-    background-color: #0056b3;
 }
 
   /* Delete Button */
@@ -1196,5 +1176,10 @@ body{
     .form-details form{
         width: 90%;
         margin-bottom: 30px;
+    }
+    /* cart page */
+    .cart-button{
+        width: 20%;
+        font-size: 13px;
     }
 }
